@@ -13,20 +13,18 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-            I'm really into Mobile App, and Web Development & Computer Networking
+            Mobile App, and Web Development & Computer Networking
             </h3>
 
             <p className="text-muted-foreground">
-              With a year of experience in both fields, I've specialized
+              With a year of experience in both fields, We have specialized
               in creating responsive, accessible, and performant mobile and web
-              applications using modern technologies and also honed my skills in network designs and implementation for some projects.
+              applications using modern technologies and also honed skills in network designs and implementation for some projects.
             </p>
 
             <p className="text-muted-foreground">
-            I bring ideas to life through intuitive
-            interfaces. Proficient in React and React Native. I'm constantly learning and improving my skills to build visually appealing and functional applications.
-            I also have a strong foundation in computer networking,
-            which allows me to design and implement efficient network solutions.
+            We bring ideas to life through intuitive
+            interfaces. We are proficient in using React and React Native to create dynamic and responsive user interfaces. We are constantly learning and improving our skills to build visually appealing and functional applications.
             
             </p>
 
@@ -37,7 +35,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://www.canva.com/design/DAGnPhT2cXk/yoJkXny__myPyuNWFxDXzw/edit?utm_content=DAGnPhT2cXk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV

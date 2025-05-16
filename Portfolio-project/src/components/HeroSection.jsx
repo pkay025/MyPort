@@ -9,25 +9,25 @@ export const HeroSection = () => {
             <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Hello, I'm</span>
+            <span className="opacity-0 animate-fade-in"> Yello!!, Welcome to</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Paakow
+              KAY
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Emma
+              TECH
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-             A mobile app and web developer. I craft seamless digital experiences that delight users with a passion for simplicity and clean design.
-            I'm specializing in front-end development.
+             This is Kay Tech, where we build and craft seamless digital experiences that delight users with a passion for simplicity and clean design.
+            We specialize in front-end development.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
-              Explore My Work
+              Explore 0ur Work
             </a>
           </div>
         </div>
