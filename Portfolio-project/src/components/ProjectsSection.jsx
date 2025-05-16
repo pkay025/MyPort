@@ -4,7 +4,7 @@ const projects = [
     {
     id: 2,
     title: "Paakow's Portfolio",
-    description: "This is a personal portfolio website of mine. It entails a lot about me, check it out.",
+    description: "This is a personal portfolio website. I built it to showcase my skills and projects. Check it out.",
     image: "/projects/Project1.png",
     tags: ["React", "TailwindCSS"],
     githubUrl: "https://github.com/pkay025/MyPort",
@@ -20,7 +20,7 @@ const projects = [
     {
     id: 4,
     title: "Diary-App",
-    description: "It's a diary app i built for myself to capture my thoughts and feelings anytime, anywhere.",
+    description: "It's a diary app i built to capture thoughts and feelings anytime, anywhere.",
     image: "/projects/Project3.png",
     tags: ["React-Native", "Expo"],
     githubUrl: "https://github.com/pkay025/diary-app",
@@ -72,7 +72,7 @@ export const ProjectsSection = () => {
                     target="_blank"
                     href="https://github.com/pkay025"
                     >
-                        Check My GitHub <ArrowRight size={16}/>
+                        Check Our GitHub <ArrowRight size={16}/>
                     </a>
 
                 </div>

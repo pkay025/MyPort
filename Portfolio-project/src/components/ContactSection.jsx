@@ -30,7 +30,7 @@ export const ContactSection = () => {
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto ">
                 Have a project in mind? Feel free to reach out.
-                I'm always open to discussing new opportunities.
+                We are always open to discussing new opportunities.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -79,16 +79,16 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h4 className="font-medium mb-4">Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="" target="_blank">
+                                <a href="https://www.linkedin.com/in/emmanuel-nunoo-mensah-900295332/" target="_blank">
                                     <Linkedin />
                                 </a>
-                                <a href="" target="_blank">
+                                <a href="https://www.instagram.com/pkay2151?igsh=MTBhMnMzNHFlZ2dtdg%3D%3D&utm_source=qr" target="_blank">
                                     <Instagram />
                                 </a>
                                 <a href="" target="_blank">
                                     <Twitter />
                                 </a>
-                                <a href="" target="_blank">
+                                <a href="https://www.facebook.com/share/15LySsrRgM/?mibextid=wwXIfr" target="_blank">
                                     <Facebook />
                                 </a>
                             </div>
@@ -109,7 +109,7 @@ export const ContactSection = () => {
                                 name="name" 
                                 required 
                                 className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" 
-                                placeholder="Paakow Emma..."
+                                placeholder="Kay Tech..."
                                 />
                             </div>
                             <div>
@@ -123,7 +123,7 @@ export const ContactSection = () => {
                                 name="email" 
                                 required 
                                 className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" 
-                                placeholder="pkay025@gmail.com..."
+                                placeholder="kaytech025@gmail.com..."
                                 />
                             </div>
                             <div>
