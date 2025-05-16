@@ -1,18 +1,18 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 
 const projects = [
     {
     id: 2,
     title: "Paakow's Portfolio",
-    description: "This is a personal portfolio that I created using react and tailwindCSS. It shows my skills and projects that I have worked on.",
+    description: "This is a personal portfolio website of mine. It entails a lot about me, check it out.",
     image: "/projects/Project1.png",
     tags: ["React", "TailwindCSS"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/pkay025/MyPort",
 },
     {
     id: 3,
     title: "UniQ E-commerce Platform",
-    description: "This is an e-commerce app that I created using react and tailwindCSS. It is a simple and elegant design that is perfect for any e-commerce business.",
+    description: "This is an e-commerce website. It has this simple and elegant design that is perfect for any e-commerce business.",
     image: "/projects/Project2.png",
     tags: ["React", "TailwindCSS"],
     githubUrl: "https://github.com/pkay025/UniQ",
@@ -20,7 +20,7 @@ const projects = [
     {
     id: 4,
     title: "Diary-App",
-    description: "This is a diary app that is easy to write and save your daily thoughts and feelings.",
+    description: "It's a diary app i built for myself to capture my thoughts and feelings anytime, anywhere.",
     image: "/projects/Project3.png",
     tags: ["React-Native", "Expo"],
     githubUrl: "https://github.com/pkay025/diary-app",
@@ -46,30 +46,35 @@ export const ProjectsSection = () => {
                                 />
                             </div>
                             <div className="p-6">
-                                <div className="flex flex-wrap gap-2 mb-4">
+                                <div className="flex flex-wrap gap-1 mb-4">
                                     {project.tags.map((tag) => (
                                         <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/20 text-secondary-foreground ">{tag}</span>
                                     ))}                                    
                                 </div>
-                            </div>
+                           
                             <h3 className="text-xl font-semibold mb-2"> {project.title}</h3>
                             <p className="text-muted-forground text-sm mb-4">{project.description}                                
                             </p>
                             <div className="flex justify-between items-center">
                                 <div className="flex space-x-3">
-                                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
-                                        <Github size={20} />
-                                    </a>
-                                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                         <ExternalLink size={20} />
                                     </a>
-
-
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
                     ))}
+                </div>
+
+                <div className="text-center mt-12">
+                    <a className="cosmic-button w-fit flex items-center mx-auto gap-2"
+                    target="_blank"
+                    href="https://github.com/pkay025"
+                    >
+                        Check My GitHub <ArrowRight size={16}/>
+                    </a>
+
                 </div>
             </div>
         </section>
